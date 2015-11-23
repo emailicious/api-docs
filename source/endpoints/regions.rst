@@ -2,7 +2,7 @@
 Regions
 =======
 
-.. http:get:: /api/v1/languages
+.. http:get:: /api/v1/regions
 
     List of supported `ISO-3166-1 country codes`_ and
     `ISO-3166-2 country subdivision codes`_.
@@ -58,7 +58,7 @@ Regions
             ]
         }
 
-.. http:get:: /api/v1/languages/(code)
+.. http:get:: /api/v1/regions/(code)
 
     Details of the region matching the specified ``code``.
 
