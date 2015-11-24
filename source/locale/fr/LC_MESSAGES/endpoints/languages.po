@@ -1,0 +1,28 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Emailicious API 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-23 16:31-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/endpoints/languages.rst:3
+msgid "Languages"
+msgstr "Langues"
+
+#: ../../source/endpoints/languages.rst:7
+msgid "List of supported `ISO-639-1 language codes`_."
+msgstr "Liste des `codes de langues ISO-639-1`_ supportées."
+
+#: ../../source/endpoints/languages.rst:11
+msgid "**Request**:"
+msgstr "**Requête**:"
+
+#: ../../source/endpoints/languages.rst:19
+msgid "**Response**:"
+msgstr "**Réponse**:"
