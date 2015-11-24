@@ -1,7 +1,9 @@
 Welcome to Emailicious API's documentation!
 ===========================================
 
-Contents:
+*****************
+Table of contents
+*****************
 
 .. toctree::
    :maxdepth: 2
