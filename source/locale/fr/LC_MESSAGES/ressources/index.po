@@ -11,10 +11,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../source/endpoints/index.rst:3
+#: ../../source/ressources/index.rst:3
 msgid "Endpoints"
 msgstr "Ressources"
 
-#: ../../source/endpoints/index.rst:6
+#: ../../source/ressources/index.rst:6
 msgid "Localization"
 msgstr "Localisation"

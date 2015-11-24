@@ -9,7 +9,7 @@ Table of contents
    :maxdepth: 2
 
    topics/index
-   endpoints/index
+   ressources/index
 
 Indices and tables
 ==================

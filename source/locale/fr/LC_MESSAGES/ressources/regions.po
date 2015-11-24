@@ -11,11 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../source/endpoints/regions.rst:3
+#: ../../source/ressources/regions.rst:3
 msgid "Regions"
 msgstr "Régions"
 
-#: ../../source/endpoints/regions.rst:7
+#: ../../source/ressources/regions.rst:7
 msgid ""
 "List of supported `ISO-3166-1 country codes`_ and `ISO-3166-2 country "
 "subdivision codes`_."
@@ -23,26 +23,26 @@ msgstr ""
 "Liste des `codes de pays ISO-3166-1`_ et `codes de subdivision de pays "
 "ISO-3166-2` supportés."
 
-#: ../../source/endpoints/regions.rst:13
+#: ../../source/ressources/regions.rst:13
 msgid "filter results by ``code``."
 msgstr "filtre les résultats par ``code``."
 
-#: ../../source/endpoints/regions.rst:14
+#: ../../source/ressources/regions.rst:14
 msgid "filter results by ``name`` and country ``name``."
 msgstr "filtre les résultats par ``name`` et ``name`` de leur pays associé."
 
-#: ../../source/endpoints/regions.rst:16 ../../source/endpoints/regions.rst:67
+#: ../../source/ressources/regions.rst:16 ../../source/ressources/regions.rst:67
 msgid "**Request**:"
 msgstr "**Requête**:"
 
-#: ../../source/endpoints/regions.rst:24 ../../source/endpoints/regions.rst:75
+#: ../../source/ressources/regions.rst:24 ../../source/ressources/regions.rst:75
 msgid "**Response**:"
 msgstr "**Réponse**:"
 
-#: ../../source/endpoints/regions.rst:63
+#: ../../source/ressources/regions.rst:63
 msgid "Details of the region matching the specified ``code``."
 msgstr "Détails the la région correspondant au ``code`` spécifié."
 
-#: ../../source/endpoints/regions.rst:65
+#: ../../source/ressources/regions.rst:65
 msgid "`ISO-3166` country or subdivision code."
 msgstr "Code de pays ou de subdivision `ISO-3166`."
