@@ -4,5 +4,5 @@ Topics
 
 .. toctree::
 
-   authentification
+   authentication
    localization

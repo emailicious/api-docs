@@ -1,13 +1,13 @@
-.. _authentification:
+.. _authentication:
 
-================
-Authentification
-================
+==============
+Authentication
+==============
 
-Accessing resources exposed through the API requires explicit authentification.
+Accessing resources exposed through the API requires explicit authentication.
 
 All requests must include an :http:header:`Authorization` header in order
-to perform `HTTP basic access authentification`_ using an existing username
+to perform `HTTP basic access authentication`_ using an existing username
 and password as credentials.
 
 .. sourcecode:: http
@@ -30,9 +30,9 @@ response.
     }
 
 .. note::
-    Since Emailicious' usernames contain the "@" caracters which is also used
+    Since Emailicious' usernames contain the "@" characters which is also used
     as a `username` and `password` separator you might have to
     `percent-encode`_ it to `%40` if your client doesn't handle it for you.
 
 .. _`percent-encode`: https://en.wikipedia.org/wiki/Percent-encoding
-.. _`HTTP basic access authentification`: https://en.wikipedia.org/wiki/Basic_access_authentication
+.. _`HTTP basic access authentication`: https://en.wikipedia.org/wiki/Basic_access_authentication

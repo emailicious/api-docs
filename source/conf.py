@@ -38,6 +38,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinxcontrib.httpdomain',
+    'sphinxcontrib.spelling',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -368,3 +369,9 @@ intersphinx_mapping = {}
 
 locale_dirs = ['locale/']
 gettext_compact = True
+
+# Spelling language.
+spelling_lang = 'en_US'
+
+# Location of word list.
+spelling_word_list_filename = 'spelling_wordlist'
