@@ -30,9 +30,16 @@ response.
     }
 
 .. note::
-    Since Emailicious' usernames contain the "@" characters which is also used
-    as a `username` and `password` separator you might have to
-    `percent-encode`_ it to `%40` if your client doesn't handle it for you.
+    Emailicious usernames contain the "@" character which is also used as the
+    `credential` and `host` separator of an `URI`_. Most HTTP clients make
+    sure to `percent-encode`_ the `username` and `password` part but you might
+    have to replace this character by `%40` if it's not the case.
 
-.. _`percent-encode`: https://en.wikipedia.org/wiki/Percent-encoding
+    For example, the `cURL`_ command line tool requires manual replacement::
+
+        curl https://user%40domain.com:password@account.emailicious.com/api/v1
+
 .. _`HTTP basic access authentication`: https://en.wikipedia.org/wiki/Basic_access_authentication
+.. _`URI`: https://en.wikipedia.org/wiki/Uniform_Resource_Identifier#Syntax
+.. _`percent-encode`: https://en.wikipedia.org/wiki/Percent-encoding
+.. _`cURL`: http://curl.haxx.se/
