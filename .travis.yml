@@ -1,0 +1,10 @@
+language: python
+env:
+  matrix:
+    - TOXENV=spelling
+    - TOXENV=html-en
+    - TOXENV=html-fr
+install:
+    pip install tox
+cache: pip
+script: tox
