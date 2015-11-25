@@ -29,7 +29,7 @@ Regions
         Vary: Accept
         Allow: GET, HEAD, OPTIONS
         Content-Type: application/json
-        
+
         {
             "count": 5140,
             "next": "/api/v1/regions?page=2",
@@ -80,7 +80,7 @@ Regions
         Vary: Accept
         Allow: GET, HEAD, OPTIONS
         Content-Type: application/json
-        
+
         {
             "code": "CA",
             "name": "Canada",

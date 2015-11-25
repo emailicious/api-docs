@@ -24,7 +24,7 @@ Languages
         Vary: Accept
         Allow: GET, HEAD, OPTIONS
         Content-Type: application/json
-        
+
         {
             "count": 96,
             "next": "/api/v1/languages?page=2",
