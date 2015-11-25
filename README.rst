@@ -12,12 +12,12 @@ Building the docs
 
 In order to build the docs you will need to install the
 `required Python dependencies`_. We suggest you use ``pip`` to perform the
-installation:
+installation::
 
     pip install -r requirements.txt
 
 Once all the required packages are installed you can simply use ``make`` to
-target the desired build:
+target the desired build::
 
     make html
 
@@ -28,7 +28,7 @@ Building localized docs
 """""""""""""""""""""""
 
 A localized version of the documentation can be built by passing the
-appropriate Sphinx options as an environment variable:
+appropriate Sphinx options as an environment variable::
 
     sphinx-intl build
     make html -e SPHINXOPTS="-D language='fr'" 
@@ -43,7 +43,7 @@ The documentation are translated using `sphinx-intl`_ which relies on
 `gettext`_ under the hood.
 
 In order to generate the translation catalogs for a specific locale the
-following commands must be run:
+following commands must be run::
 
     make gettext
     sphinx-intl update -p build/locale -l <locale>
