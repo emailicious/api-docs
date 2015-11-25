@@ -1,6 +1,9 @@
 Emailicious API documentation
 =============================
 
+.. image:: https://travis-ci.org/emailicious/api-docs.svg?branch=master
+    :target: https://travis-ci.org/emailicious/api-docs
+
 The `Emailicious`_ API documentation is built using `Sphinx`_.
 
 .. _`Emailicious`: https://www.emailicious.com
