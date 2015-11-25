@@ -1,9 +1,13 @@
+sudo: required
 language: python
 env:
   matrix:
     - TOXENV=spelling
     - TOXENV=html-en
     - TOXENV=html-fr
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -y libenchant1c2a
 install:
     pip install tox
 cache: pip
