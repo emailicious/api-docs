@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Emailicious API 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 00:28-0500\n"
-"PO-Revision-Date: 2015-11-26 12:09-0500\n"
+"PO-Revision-Date: 2015-11-26 17:57-0500\n"
 "Last-Translator: Simon Charette <simon.charette@emailicious.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,19 +16,6 @@ msgstr ""
 msgid "Regions"
 msgstr "Régions"
 
-msgid ""
-"List of supported `ISO-3166-1 country codes`_ and `ISO-3166-2 country "
-"subdivision codes`_."
-msgstr ""
-"Liste des `codes de pays ISO-3166-1`_ et `codes de subdivision de pays "
-"ISO-3166-2`_ supportés."
-
-msgid "filter results by ``code``."
-msgstr "filtre les résultats par ``code``."
-
-msgid "filter results by ``name`` and country ``name``."
-msgstr "filtre les résultats par ``name`` et ``name`` de leur pays associé."
-
 msgid "**Request**:"
 msgstr "**Requête**:"
 
@@ -36,7 +23,35 @@ msgid "**Response**:"
 msgstr "**Réponse**:"
 
 msgid "Details of the region matching the specified ``code``."
-msgstr "Détails the la région correspondant au ``code`` spécifié."
+msgstr "Détails de la région correspondant au ``code`` spécifié."
 
-msgid "`ISO-3166` country or subdivision code."
-msgstr "Code de pays ou de subdivision `ISO-3166`."
+msgid "filter results by ``code``"
+msgstr "filtre les résultats par ``code``"
+
+msgid "filter results by ``name`` and country ``name``"
+msgstr "filtre les résultats par ``name`` et ``name`` de leur pays associé"
+
+msgid ":ref:`localized<localization>` name of the country or subdivision"
+msgstr "nom :ref:`localisé<localization>` du pays ou de la subdivision"
+
+msgid ""
+"List of supported `ISO-3166-1`_ country and `ISO-3166-2`_ subdivision codes."
+msgstr ""
+"Liste des codes de pays `ISO-3166-1`_ et subdivisions `ISO-3166-2`_ "
+"supportés."
+
+msgid "`ISO-3166`_ code of the country or subdivision"
+msgstr "code `ISO-3166`_ du pays ou de la subdivision"
+
+msgid "`ISO-3166`_ country or subdivision code."
+msgstr "Code de pays ou de subdivision `ISO-3166`_."
+
+msgid "`ISO-3166-1`_ code of the subdivision's country"
+msgstr "code `ISO-3166-1`_ du pays de la subdivision"
+
+msgid ""
+"`ISO-3166-2`_ codes and :ref:`localized<localization>` names of the "
+"country's subdivisions"
+msgstr ""
+"codes `ISO-3166-2`_ et noms :ref:`localisés<localization>` des subdivisions "
+"du pays"

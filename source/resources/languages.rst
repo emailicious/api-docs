@@ -6,9 +6,12 @@ Languages
 
 .. http:get:: /api/v1/languages
 
-    List of supported `ISO-639-1 language codes`_.
+    List of supported `ISO-639-1`_ language codes.
 
-    .. _`ISO-639-1 language codes`: https://en.wikipedia.org/wiki/ISO_639-1
+    :>jsonarr string code: `ISO-639-1`_ code of the language
+    :>jsonarr string name: :ref:`localized<localization>` name of language
+
+    .. _`ISO-639-1`: https://en.wikipedia.org/wiki/ISO_639-1
 
     **Request**:
 

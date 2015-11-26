@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Emailicious API 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 00:28-0500\n"
-"PO-Revision-Date: 2015-11-26 12:09-0500\n"
+"PO-Revision-Date: 2015-11-26 17:57-0500\n"
 "Last-Translator: Simon Charette <simon.charette@emailicious.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,11 +16,17 @@ msgstr ""
 msgid "Languages"
 msgstr "Langues"
 
-msgid "List of supported `ISO-639-1 language codes`_."
-msgstr "Liste des `codes de langues ISO-639-1`_ supportées."
-
 msgid "**Request**:"
 msgstr "**Requête**:"
 
 msgid "**Response**:"
 msgstr "**Réponse**:"
+
+msgid "List of supported `ISO-639-1`_ language codes."
+msgstr "Liste des codes de langues `ISO-639-1`_ supportées."
+
+msgid "`ISO-639-1`_ code of the language"
+msgstr "code `ISO-639-1`_ de la langue"
+
+msgid ":ref:`localized<localization>` name of language"
+msgstr "nom :ref:`localisé<localization>` de la langue"
