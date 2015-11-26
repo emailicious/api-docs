@@ -4,38 +4,14 @@ msgstr ""
 "Project-Id-Version: Emailicious API 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 00:28-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-11-26 12:09-0500\n"
+"Last-Translator: Simon Charette <simon.charette@emailicious.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../../source/resources/index.rst:3
-msgid "Resources"
-msgstr "Ressources"
-
-#: ../../source/resources/index.rst:8
-msgid "Localization"
-msgstr "Localisation"
-
-#: ../../source/resources/languages.rst:3
-msgid "Languages"
-msgstr "Langues"
-
-#: ../../source/resources/languages.rst:7
-msgid "List of supported `ISO-639-1 language codes`_."
-msgstr "Liste des `codes de langues ISO-639-1`_ supportées."
-
-#: ../../source/resources/languages.rst:11
-#: ../../source/resources/regions.rst:16 ../../source/resources/regions.rst:67
-msgid "**Request**:"
-msgstr "**Requête**:"
-
-#: ../../source/resources/languages.rst:19
-#: ../../source/resources/regions.rst:24 ../../source/resources/regions.rst:75
-msgid "**Response**:"
-msgstr "**Réponse**:"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../../source/resources/regions.rst:3
 msgid "Regions"
@@ -56,6 +32,14 @@ msgstr "filtre les résultats par ``code``."
 #: ../../source/resources/regions.rst:14
 msgid "filter results by ``name`` and country ``name``."
 msgstr "filtre les résultats par ``name`` et ``name`` de leur pays associé."
+
+#: ../../source/resources/regions.rst:16 ../../source/resources/regions.rst:67
+msgid "**Request**:"
+msgstr "**Requête**:"
+
+#: ../../source/resources/regions.rst:24 ../../source/resources/regions.rst:75
+msgid "**Response**:"
+msgstr "**Réponse**:"
 
 #: ../../source/resources/regions.rst:63
 msgid "Details of the region matching the specified ``code``."

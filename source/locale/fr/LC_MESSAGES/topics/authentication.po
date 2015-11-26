@@ -13,6 +13,10 @@ msgstr ""
 "Language: fr\n"
 "X-Generator: Poedit 1.5.4\n"
 
+#: ../../source/topics/authentication.rst:5
+msgid "Authentication"
+msgstr "Authentification"
+
 #: ../../source/topics/authentication.rst:7
 msgid ""
 "Accessing resources exposed through the API requires explicit authentication."
@@ -38,34 +42,6 @@ msgstr ""
 "À défaut de fournir des données d'authentication valide une réponse :http:"
 "statuscode:`401` sera retournée."
 
-#: ../../source/topics/index.rst:3
-msgid "Topics"
-msgstr "Sujets"
-
-#: ../../source/topics/localization.rst:3
-msgid "Localization"
-msgstr "Localisation"
-
-#: ../../source/topics/localization.rst:5
-msgid ""
-"Certain resources content is localized using `content negotiation`_ based on "
-"the :http:header:`Accept-Language` header."
-msgstr ""
-"Le contenu de certaines ressources est localisé via `negotiation de "
-"contenu`_ à partir de l'entête :http:header:`Accept-Language`."
-
-#: ../../source/topics/localization.rst:8
-msgid ""
-"For example, the :http:get:`/api/v1/regions` resource will return localized "
-"``name`` if a language is specified through the aforementioned header."
-msgstr ""
-"Par exemple, la ressource :http:get:`/api/v1/regions` retournera un ``name`` "
-"localisé si une locale est spécifiée via l'entête mentionné précédemment."
-
-#: ../../source/topics/authentication.rst:5
-msgid "Authentication"
-msgstr "Authentification"
-
 #: ../../source/topics/authentication.rst:33
 msgid ""
 "Emailicious usernames contain the \"@\" character which is also used as the "
@@ -85,33 +61,3 @@ msgid ""
 msgstr ""
 "Par exemple, l'outil de ligne de commande `cURL`_ requiert telle "
 "manipulation::"
-
-#: ../../source/topics/localization.rst:12
-msgid ""
-"If the :http:header:`Accept-Language` header is not provided the current "
-"locale will be determined from the :ref:`authenticated user "
-"<authentication>` language if defined."
-msgstr ""
-"Si l'entête :http:header:`Accept-Language` n'est pas fournie la locale du "
-"contenu sera déterminée à partir de la langue associé à l':ref:`utilisateur "
-"authentifié <authentication>`."
-
-#: ../../source/topics/introduction.rst:3
-msgid "Introduction"
-msgstr "Introduction"
-
-#: ../../source/topics/introduction.rst:5
-msgid ""
-"`Emailicious`_ API exposes a collection of :ref:`resources <resources>` "
-"through an HTTP `REST`_ interface."
-msgstr ""
-"L'API d'`Emailicious`_ expose une collection de :ref:`ressources "
-"<resources>` via un interface HTTP `REST`_."
-
-#: ../../source/topics/introduction.rst:8
-msgid ""
-"The API root is accessible at the ``/api/v1`` path of all existing "
-"`Emailicious`_ accounts::"
-msgstr ""
-"La racine de l'API est exposée au chemin ``/api/v1`` de chaque compte "
-"`Emailicious`_ existant:: "

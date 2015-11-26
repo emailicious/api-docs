@@ -368,7 +368,7 @@ epub_exclude_files = ['search.html']
 intersphinx_mapping = {}
 
 locale_dirs = ['locale/']
-gettext_compact = True
+gettext_compact = False
 
 # Spelling language.
 spelling_lang = 'en_US'
