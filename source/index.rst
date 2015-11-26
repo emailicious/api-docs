@@ -1,5 +1,5 @@
-Welcome to Emailicious API's documentation!
-===========================================
+Emailicious API documentation
+=============================
 
 *****************
 Table of contents

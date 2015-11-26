@@ -15,7 +15,7 @@ msgstr ""
 msgid "Endpoints"
 msgstr "Ressources"
 
-#: ../../source/ressources/index.rst:6
+#: ../../source/ressources/index.rst:8
 msgid "Localization"
 msgstr "Localisation"
 
@@ -28,12 +28,14 @@ msgid "List of supported `ISO-639-1 language codes`_."
 msgstr "Liste des `codes de langues ISO-639-1`_ supportées."
 
 #: ../../source/ressources/languages.rst:11
-#: ../../source/ressources/regions.rst:16 ../../source/ressources/regions.rst:67
+#: ../../source/ressources/regions.rst:16
+#: ../../source/ressources/regions.rst:67
 msgid "**Request**:"
 msgstr "**Requête**:"
 
 #: ../../source/ressources/languages.rst:19
-#: ../../source/ressources/regions.rst:24 ../../source/ressources/regions.rst:75
+#: ../../source/ressources/regions.rst:24
+#: ../../source/ressources/regions.rst:75
 msgid "**Response**:"
 msgstr "**Réponse**:"
 

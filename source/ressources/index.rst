@@ -2,6 +2,8 @@
 Endpoints
 =========
 
+.. _resources:
+
 Localization
 ------------
 .. toctree::
