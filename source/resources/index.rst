@@ -1,5 +1,5 @@
 =========
-Endpoints
+Resources
 =========
 
 .. _resources:
