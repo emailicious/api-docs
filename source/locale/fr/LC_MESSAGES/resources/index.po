@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Emailicious API 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-24 00:28-0500\n"
-"PO-Revision-Date: 2015-11-26 12:09-0500\n"
+"PO-Revision-Date: 2015-11-26 16:29-0500\n"
 "Last-Translator: Simon Charette <simon.charette@emailicious.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,10 @@ msgstr ""
 msgid "Resources"
 msgstr "Ressources"
 
-#: ../../source/resources/index.rst:8
+#: ../../source/resources/index.rst:16
 msgid "Localization"
 msgstr "Localisation"
+
+#: ../../source/resources/index.rst:8
+msgid "Lists & subscribers"
+msgstr "Listes et abonnés"
