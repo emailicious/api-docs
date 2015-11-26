@@ -13,14 +13,11 @@ msgstr ""
 "Language: fr\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: ../../source/resources/index.rst:3
 msgid "Resources"
 msgstr "Ressources"
 
-#: ../../source/resources/index.rst:16
 msgid "Localization"
 msgstr "Localisation"
 
-#: ../../source/resources/index.rst:8
 msgid "Lists & subscribers"
 msgstr "Listes et abonnés"

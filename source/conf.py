@@ -369,6 +369,7 @@ intersphinx_mapping = {}
 
 locale_dirs = ['locale/']
 gettext_compact = False
+gettext_location = False
 
 # Spelling language.
 spelling_lang = 'en_US'

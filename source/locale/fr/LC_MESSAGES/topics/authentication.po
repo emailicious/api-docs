@@ -13,36 +13,32 @@ msgstr ""
 "Language: fr\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: ../../source/topics/authentication.rst:5
 msgid "Authentication"
 msgstr "Authentification"
 
-#: ../../source/topics/authentication.rst:7
 msgid ""
-"Accessing resources exposed through the API requires explicit authentication."
+"Accessing resources exposed through the API requires explicit "
+"authentication."
 msgstr ""
 "L'accés aux ressources exposées via l'API requiert une authentication "
 "préablable"
 
-#: ../../source/topics/authentication.rst:9
 msgid ""
-"All requests must include an :http:header:`Authorization` header in order to "
-"perform `HTTP basic access authentication`_ using an existing username and "
+"All requests must include an :http:header:`Authorization` header in order to"
+" perform `HTTP basic access authentication`_ using an existing username and "
 "password as credentials."
 msgstr ""
 "Toutes les requêtes doivent inclure un entête :http:header:`Authorization` "
 "afin de permettre `une authentication basic HTTP`_ à partir d'un nom "
 "d'usager existant et son mot de passe associé."
 
-#: ../../source/topics/authentication.rst:19
 msgid ""
-"Failing to provide valid credentials will result in an :http:statuscode:"
-"`401` response."
+"Failing to provide valid credentials will result in an "
+":http:statuscode:`401` response."
 msgstr ""
-"À défaut de fournir des données d'authentication valide une réponse :http:"
-"statuscode:`401` sera retournée."
+"À défaut de fournir des données d'authentication valide une réponse "
+":http:statuscode:`401` sera retournée."
 
-#: ../../source/topics/authentication.rst:33
 msgid ""
 "Emailicious usernames contain the \"@\" character which is also used as the "
 "`credential` and `host` separator of an `URI`_. Most HTTP clients make sure "
@@ -51,11 +47,10 @@ msgid ""
 msgstr ""
 "Les noms d'usager Emailicious contiennent le caractère « @ » qui est aussi "
 "utilisé comme séparateur des sections `credentials` et `host` d'une `URI`_. "
-"La plupart des clients HTTP s'assurent d'appliquer l'`encodage-pourcentage`_ "
-"au `nom d'usager` ainsi qu'au `mot de passe` mais il est possible que vous "
+"La plupart des clients HTTP s'assurent d'appliquer l'`encodage-pourcentage`_"
+" au `nom d'usager` ainsi qu'au `mot de passe` mais il est possible que vous "
 "deviez effectuer la substitution vous même si ce n'est pas le cas."
 
-#: ../../source/topics/authentication.rst:38
 msgid ""
 "For example, the `cURL`_ command line tool requires manual replacement::"
 msgstr ""

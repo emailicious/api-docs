@@ -13,18 +13,14 @@ msgstr ""
 "Language: fr\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: ../../source/resources/languages.rst:5
 msgid "Languages"
 msgstr "Langues"
 
-#: ../../source/resources/languages.rst:9
 msgid "List of supported `ISO-639-1 language codes`_."
 msgstr "Liste des `codes de langues ISO-639-1`_ supportées."
 
-#: ../../source/resources/languages.rst:13
 msgid "**Request**:"
 msgstr "**Requête**:"
 
-#: ../../source/resources/languages.rst:21
 msgid "**Response**:"
 msgstr "**Réponse**:"

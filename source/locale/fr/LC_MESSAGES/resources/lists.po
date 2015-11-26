@@ -13,98 +13,64 @@ msgstr ""
 "Language: fr\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: ../../source/resources/lists.rst:3
 msgid "Lists"
 msgstr "Listes"
 
-#: ../../source/resources/lists.rst:7
 msgid "List of existing subscriber lists."
 msgstr "Liste des listes d'abonnés existantes."
 
-#: ../../source/resources/lists.rst:21 ../../source/resources/lists.rst:88
-#: ../../source/resources/lists.rst:154
 msgid "**Request**:"
 msgstr "**Requête**:"
 
-#: ../../source/resources/lists.rst:29 ../../source/resources/lists.rst:109
-#: ../../source/resources/lists.rst:162
 msgid "**Response**:"
 msgstr "**Réponse**:"
 
-#: ../../source/resources/lists.rst:64
 msgid "Create a new subscriber list."
 msgstr "Crée une nouvelle liste d'abonnés."
 
-#: ../../source/resources/lists.rst:85
 msgid "list created"
 msgstr "liste crée"
 
-#: ../../source/resources/lists.rst:86
 msgid "invalid request body"
 msgstr "requête invalide"
 
-#: ../../source/resources/lists.rst:9 ../../source/resources/lists.rst:73
-#: ../../source/resources/lists.rst:139 ../../source/resources/lists.rst:142
 msgid "list's unique identifier"
 msgstr "l'identifiant unique de la liste"
 
-#: ../../source/resources/lists.rst:10 ../../source/resources/lists.rst:74
-#: ../../source/resources/lists.rst:143
 msgid "list's creation datetime"
 msgstr "le `datetime` de création de la liste"
 
-#: ../../source/resources/lists.rst:11 ../../source/resources/lists.rst:75
-#: ../../source/resources/lists.rst:144
 msgid "list's creation :ref:`user <authentication>`'s unique identifier"
 msgstr "l'identifiant unique du :ref:`créateur <authentication>` de la liste"
 
-#: ../../source/resources/lists.rst:12 ../../source/resources/lists.rst:76
-#: ../../source/resources/lists.rst:145
 msgid "list's last update datetime"
 msgstr "le `datetime` de dernière modification de la liste"
 
-#: ../../source/resources/lists.rst:13 ../../source/resources/lists.rst:66
-#: ../../source/resources/lists.rst:78 ../../source/resources/lists.rst:147
 msgid "list's name"
 msgstr "le nom de la liste"
 
-#: ../../source/resources/lists.rst:14 ../../source/resources/lists.rst:77
-#: ../../source/resources/lists.rst:146
 msgid "list's last update :ref:`user <authentication>`'s unique identifier"
 msgstr ""
 "l'identifiant unique de l':ref:`utilisateur <authentication>` ayant fait la "
 "dernière modification à a liste"
 
-#: ../../source/resources/lists.rst:15 ../../source/resources/lists.rst:67
-#: ../../source/resources/lists.rst:79 ../../source/resources/lists.rst:148
 msgid "list's future mailings' default \"from name\""
 msgstr "le nom d'expéditeur par défaut des envois futurs à cette liste"
 
-#: ../../source/resources/lists.rst:16 ../../source/resources/lists.rst:68
-#: ../../source/resources/lists.rst:80 ../../source/resources/lists.rst:149
 msgid "list's future mailings' default \"from email\""
 msgstr "l'adresse d'expédition par défaut des envois futurs à cette liste"
 
-#: ../../source/resources/lists.rst:17 ../../source/resources/lists.rst:69
-#: ../../source/resources/lists.rst:81 ../../source/resources/lists.rst:150
 msgid "list's the future mailings' default \"reply to email\""
 msgstr "l'adresse de retour par défaut des envois futurs à cette liste"
 
-#: ../../source/resources/lists.rst:18 ../../source/resources/lists.rst:70
-#: ../../source/resources/lists.rst:82 ../../source/resources/lists.rst:151
 msgid "list's default :ref:`language<languages>`"
 msgstr "la :ref:`langue<languages>` par défaut de la liste"
 
-#: ../../source/resources/lists.rst:19 ../../source/resources/lists.rst:71
-#: ../../source/resources/lists.rst:83 ../../source/resources/lists.rst:152
 msgid "list's allowed :ref:`languages<languages>`"
 msgstr "les :ref:`langues<languages>` permise par la liste"
 
-#: ../../source/resources/lists.rst:137
 msgid "Details of the list matching the specified ``id``."
 msgstr "Détails de la liste correspondant au ``id`` spécifié."
 
-#: ../../source/resources/lists.rst:188
 msgid "no list match the specified ``id``"
 msgstr "aucune liste ne correspond au ``id`` spécifié"
-

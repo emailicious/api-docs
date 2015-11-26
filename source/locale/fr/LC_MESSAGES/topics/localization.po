@@ -13,27 +13,23 @@ msgstr ""
 "Language: fr\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: ../../source/topics/localization.rst:3
 msgid "Localization"
 msgstr "Localisation"
 
-#: ../../source/topics/localization.rst:5
 msgid ""
-"Certain resources content is localized using `content negotiation`_ based on "
-"the :http:header:`Accept-Language` header."
+"Certain resources content is localized using `content negotiation`_ based on"
+" the :http:header:`Accept-Language` header."
 msgstr ""
 "Le contenu de certaines ressources est localisé via `negotiation de "
 "contenu`_ à partir de l'entête :http:header:`Accept-Language`."
 
-#: ../../source/topics/localization.rst:8
 msgid ""
 "For example, the :http:get:`/api/v1/regions` resource will return localized "
 "``name`` if a language is specified through the aforementioned header."
 msgstr ""
-"Par exemple, la ressource :http:get:`/api/v1/regions` retournera un ``name`` "
-"localisé si une locale est spécifiée via l'entête mentionné précédemment."
+"Par exemple, la ressource :http:get:`/api/v1/regions` retournera un ``name``"
+" localisé si une locale est spécifiée via l'entête mentionné précédemment."
 
-#: ../../source/topics/localization.rst:12
 msgid ""
 "If the :http:header:`Accept-Language` header is not provided the current "
 "locale will be determined from the :ref:`authenticated user "

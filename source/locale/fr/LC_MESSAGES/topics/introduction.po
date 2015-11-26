@@ -13,11 +13,9 @@ msgstr ""
 "Language: fr\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: ../../source/topics/introduction.rst:3
 msgid "Introduction"
 msgstr "Introduction"
 
-#: ../../source/topics/introduction.rst:5
 msgid ""
 "`Emailicious`_ API exposes a collection of :ref:`resources <resources>` "
 "through an HTTP `REST`_ interface."
@@ -25,7 +23,6 @@ msgstr ""
 "L'API d'`Emailicious`_ expose une collection de :ref:`ressources "
 "<resources>` via un interface HTTP `REST`_."
 
-#: ../../source/topics/introduction.rst:8
 msgid ""
 "The API root is accessible at the ``/api/v1`` path of all existing "
 "`Emailicious`_ accounts::"
