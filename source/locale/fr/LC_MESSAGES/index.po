@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Emailicious API 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-23 16:31-0500\n"
-"PO-Revision-Date: 2015-11-26 12:07-0500\n"
+"PO-Revision-Date: 2015-11-27 15:20-0500\n"
 "Last-Translator: Simon Charette <simon.charette@emailicious.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -12,18 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "X-Generator: Poedit 1.5.4\n"
-
-msgid "Indices and tables"
-msgstr "Indices et tables"
-
-msgid ":ref:`genindex`"
-msgstr ""
-
-msgid ":ref:`modindex`"
-msgstr ""
-
-msgid ":ref:`search`"
-msgstr ""
 
 msgid "Table of contents"
 msgstr "Table des matières"

@@ -10,11 +10,3 @@ Table of contents
 
    topics/index
    resources/index
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
