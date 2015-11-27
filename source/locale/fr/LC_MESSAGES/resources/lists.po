@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Emailicious API 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-26 16:20-0500\n"
-"PO-Revision-Date: 2015-11-26 16:52-0500\n"
+"PO-Revision-Date: 2015-11-27 01:01-0500\n"
 "Last-Translator: Simon Charette <simon.charette@emailicious.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -30,9 +30,6 @@ msgstr "Crée une nouvelle liste d'abonnés."
 
 msgid "list created"
 msgstr "liste crée"
-
-msgid "invalid request body"
-msgstr "requête invalide"
 
 msgid "list's unique identifier"
 msgstr "l'identifiant unique de la liste"
@@ -69,8 +66,32 @@ msgstr "la :ref:`langue<languages>` par défaut de la liste"
 msgid "list's allowed :ref:`languages<languages>`"
 msgstr "les :ref:`langues<languages>` permise par la liste"
 
-msgid "Details of the list matching the specified ``id``."
-msgstr "Détails de la liste correspondant au ``id`` spécifié."
+msgid "invalid subscriber list data"
+msgstr "données de liste d'abonnés invalides"
 
-msgid "no list match the specified ``id``"
-msgstr "aucune liste ne correspond au ``id`` spécifié"
+msgid "Details of the subscriber list matching the specified ``id``."
+msgstr "Détails de la liste d'abonnés correspondant au ``id`` spécifié."
+
+msgid "no subscriber list match the specified ``id``"
+msgstr "aucune liste d'abonnés ne correspond au ``id`` spécifié"
+
+msgid "Alter the subscriber list matching the specified ``id``."
+msgstr "Modification de la liste d'abonnés correspondant au ``id`` spécifié."
+
+msgid "Partially alter the subscriber list matching the specified ``id``."
+msgstr ""
+"Modification partielle de la liste d'abonnés correspondant au ``id`` "
+"spécifié."
+
+msgid "Delete the subscriber list matching the specified ``id``."
+msgstr "Suppression de la liste d'abonnés correspondant au ``id`` spécifié."
+
+msgid ""
+"Deleting a subscriber list will also irreversibly delete all associated "
+"mailings and statistics."
+msgstr ""
+"La suppression d'une liste entraînement inévitablement la suppressions des "
+"envois et statistiques associés de manière irréversible."
+
+msgid "the subscriber list was deleted successfully"
+msgstr "la liste d'abonnés à été supprimée avec succés"
