@@ -6,4 +6,5 @@ Topics
 
    introduction
    authentication
+   errors
    localization
