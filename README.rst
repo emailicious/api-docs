@@ -4,10 +4,15 @@ Emailicious API documentation
 .. image:: https://travis-ci.org/emailicious/api-docs.svg?branch=master
     :target: https://travis-ci.org/emailicious/api-docs
 
-The `Emailicious`_ API documentation is built using `Sphinx`_.
+.. image:: https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat
+    :target: https://emailicious-api.readthedocs.org/en/latest/
+
+The `Emailicious`_ API documentation is built using `Sphinx`_ and available on
+`Read the docs`_.
 
 .. _`Emailicious`: https://www.emailicious.com
 .. _`Sphinx`: http://sphinx-doc.org/
+.. _`Read the docs`: https://emailicious-api.readthedocs.org/en/latest/
 
 *****************
 Building the docs
