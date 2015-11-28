@@ -10,8 +10,8 @@ Lists
     :>jsonarr datetime create_datetime: list's creation datetime
     :>jsonarr int create_user: list's creation :ref:`user <authentication>`'s unique identifier
     :>jsonarr datetime update_datetime: list's last update datetime
-    :>jsonarr string name: list's name
     :>jsonarr int update_user: list's last update :ref:`user <authentication>`'s unique identifier
+    :>jsonarr string name: list's name
     :>jsonarr string default_from_name: list's future mailings' default "from name"
     :>jsonarr email default_from_email: list's future mailings' default "from email"
     :>jsonarr email default_replyto_email: list's the future mailings' default "reply to email"
@@ -352,7 +352,7 @@ Lists
 
     .. sourcecode:: http
 
-        HTTP 204 NO CONTENT
+        HTTP/1.1 204 NO CONTENT
         Vary: Accept
         Allow: GET, PUT, DELETE, HEAD, OPTIONS, PATCH
 
