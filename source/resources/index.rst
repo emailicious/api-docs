@@ -10,7 +10,7 @@ Lists & subscribers
    :maxdepth: 1
 
    lists
-
+   subscribers
 
 Localization
 ------------

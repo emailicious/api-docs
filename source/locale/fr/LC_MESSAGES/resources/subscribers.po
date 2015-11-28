@@ -1,0 +1,234 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Emailicious API 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-27 21:10-0500\n"
+"PO-Revision-Date: 2015-11-27 21:58-0500\n"
+"Last-Translator: Simon Charette <simon.charette@emailicious.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "Subscribers"
+msgstr "Abonnés"
+
+msgid "Subscribers of the list matching the specified ``list_id``."
+msgstr "Abonnés de la liste correspondant au ``list_id`` spécifié."
+
+msgid "list's unique identifier"
+msgstr "l'identifiant unique de la liste"
+
+msgid ""
+"filter results by ``subscription`` status, valid values are ``active``, "
+"``pending``, ``bounced``, ``unsubscribed`` and ``deleted``"
+msgstr ""
+"filtrer les résultats par statut d'abonnement, les valeurs valides sont "
+"``active``, ``pending``, ``bounced``, ``unsubscribed`` and ``deleted``"
+
+msgid "filter results by ``email``"
+msgstr "filtrer les résultats par ``email``"
+
+msgid "subscriber's unique identifier"
+msgstr "l'identifiant unique de la liste"
+
+msgid "subscriber's creation datetime"
+msgstr "le `datetime` de création de l'abonné"
+
+msgid "subscriber's creation :ref:`user <authentication>`'s unique identifier"
+msgstr "l'identifiant unique du :ref:`créateur<authentication>`'s de l'abonné"
+
+msgid "subscriber's last update datetime"
+msgstr "le `datetime` de dernière modification de l'abonné"
+
+msgid ""
+"subscriber's last update :ref:`user <authentication>`'s unique identifier"
+msgstr ""
+"L'identifiant unique de l':ref:`utilisateur<authentication>` ayant fait la "
+"dernière modification à l'abonné"
+
+msgid "subscriber's subscription status"
+msgstr "statut d'abonnement de l'abonné"
+
+msgid "subscriber's first name"
+msgstr "prénom de l'abonné"
+
+msgid "subscriber's last name"
+msgstr "nom de l'abonné"
+
+msgid "subscriber's gender"
+msgstr "sexe de l'abonné"
+
+msgid "subscriber's date of birth"
+msgstr "date de naissance de l'abonné"
+
+msgid "subscriber's :ref:`language<languages>`"
+msgstr ":ref:`langue<languages>` de l'abonné"
+
+msgid "subscriber's :ref:`region<regions>`"
+msgstr ":ref:`région<regions>` de l'abonné"
+
+msgid ""
+"Custom shared and list fields should also be part of the subscriber objects. "
+"The exact structure of the list can be retrieved by :ref:"
+"`introspecting<custom-fields-instropection>` the resource."
+msgstr ""
+"Les champs personnalisés partagés et de listes devraient aussi être présent "
+"dans les abonnés retournés. La structure exacte de la liste peut être "
+"retrouvée par :ref:`introspection<custom-fields-instropection>` de la "
+"ressource."
+
+msgid "**Request**:"
+msgstr "**Requête**:"
+
+msgid "**Response**:"
+msgstr "**Réponse**:"
+
+msgid "no subscriber list match the specified ``list_id``"
+msgstr "aucune liste d'abonnés ne correspond au ``list_id`` spécifié"
+
+msgid "Create subscriber for the list matching the specified ``list_id``."
+msgstr "Crée un abonné à la liste correspondant au ``list_id`` spécifié."
+
+msgid ""
+"Custom shared and list fields can also be specified as parameters. The exact "
+"structure of the list can be retrieved by :ref:`introspecting<custom-fields-"
+"instropection>` the resource."
+msgstr ""
+"Les champs personnalisés partagés et de listes peuvent aussi être "
+"spécificiés comme paramètres. La structure exacte de la liste peut être "
+"retrouvée par :ref:`introspection<custom-fields-instropection>` de la "
+"ressource."
+
+msgid "the subscriber was created successfully"
+msgstr "l'abonné a été créé avec succès"
+
+msgid "invalid subscriber data"
+msgstr "données d'abonné invalides"
+
+msgid ""
+"a subscriber with the specified ``email`` :ref:`already exists in this "
+"list<email-conflict>`."
+msgstr ""
+"un abonné avec l'adresse courriel spécifée  :ref:`existe déjà dans cette "
+"liste<email-conflict>`."
+
+msgid "Dealing with :http:statuscode:`409`"
+msgstr "Gérer les erreurs :http:statuscode:`409`"
+
+msgid ""
+"When a list already contains a subscriber with the specified ``email`` the "
+"conflicting subscriber will be returned in the body of a :http:statuscode:"
+"`409` response."
+msgstr ""
+"Lorsqu'une tentative de création ou de modification d'un abonné entraîne une "
+"collision du champ adresse courriel l'abonné conflictuel est retourné dans "
+"le corps d'une réponse :http:statuscode:`409`."
+
+msgid "Introspection details of the subscribers resource."
+msgstr "Détails introspectif de la ressource « abonnés »."
+
+msgid "Custom fields introspection"
+msgstr "Introspection des champs personnalisés"
+
+msgid ""
+"You can use the ``actions.POST`` details to retrieve the name and type of "
+"custom fields from the specified ``list_id`` structure."
+msgstr ""
+"Vous pouvez retrouver le nom et type des champs personnalisés de la liste "
+"spécifié à partir de la section ``actions.POST`` de la réponse."
+
+msgid ""
+"Details of the subscriber matching the specified ``list_id`` and ``id``."
+msgstr "Détails de l'abonné correspondant aux ``list_id`` et ``id`` spécifiés."
+
+msgid ""
+"Custom shared and list fields should also be part of the subscriber object. "
+"The exact structure of the list can be retrieved by :ref:"
+"`introspecting<custom-fields-instropection>` the resource."
+msgstr ""
+"Les champs personnalisés partagés et de listes devraient aussi être présent "
+"dans l'abonné retourné. La structure exacte de la liste peut être retrouvée "
+"en :ref:`introspectant<custom-fields-instropection>` la ressource."
+
+msgid "no subscriber match the specified ``list_id`` and ``id``"
+msgstr "aucun abonné ne correspond aux ``list_id`` et ``id`` spécifiés."
+
+msgid "Alter the subscriber matching the specified ``id`` and ``list_id``."
+msgstr "Modifie l'abonné correspondant aux ``list_id`` et ``id`` spécifiés."
+
+msgid ""
+"Partially alter the subscriber matching the specified ``id`` and ``list_id``."
+msgstr ""
+"Modification partielle de l'abonné correspondat aux ``list_id`` et ``id`` "
+"spécifiés."
+
+msgid ""
+"Change the ``subscription`` status of the subscriber matching the provided "
+"``id`` and ``list_id`` to ``deleted``."
+msgstr ""
+"Assigne le statut d'abonnement ``deleted`` à l'abonné correspondant aux "
+"``list_id`` et ``id`` spécifiés"
+
+msgid "the subscriber was deleted successfully"
+msgstr "le statut d'abonnement de l'abonné à été modifié avec succès"
+
+msgid ""
+"Change the ``subscription`` status of the subscriber matching the provided "
+"``id`` and ``list_id`` to either ``pending`` or ``active`` depending on the "
+"list's subscription process and the value of the ``confirm`` parameter."
+msgstr ""
+"Assigne le statut d'abonnement ``pending`` ou ``active`` à l'abonné "
+"correspondant aux ``list_id`` et ``id`` spécifiés en fonction du processus "
+"d'adhésion de la liste ainsi que la valeur du paramètre ``confirm``."
+
+msgid "whether or not to force or disable activation confirmation"
+msgstr "outrepasse le processus d'adhésion configuré"
+
+msgid "the subscriber's subscription status"
+msgstr "le statut d'abonnement de l'abonné"
+
+msgid ""
+"the subscription activation cannot be confirmed since not opt-in process is "
+"configured for the specified list."
+msgstr ""
+"il n'est pas possible de confirmer l'abonnement à la liste puisqu'aucun "
+"processus n'est configuré"
+
+msgid ""
+"Change the ``subscription`` status of the subscriber matching the provided "
+"``id`` and ``list_id`` to ``unsubscribed``."
+msgstr ""
+"Assigne le statut d'abonnement ``unsubscribed`` à l'abonné correspondant aux "
+"``list_id`` et ``id`` spécifiés"
+
+msgid "subscriber's email"
+msgstr "l'adresse courriel de l'abonné"
+
+msgid ""
+"At this point your application should either notify the user behind the "
+"request that this ``email`` is already subscribed or proceed to :ref:`update "
+"the conflicting subscriber<subscriber-update>` given you authenticated the "
+"user as the owner of the specified ``email`` address."
+msgstr ""
+"Lorsqu'un tel conflit se produit votre application se doit d'informer "
+"l'utilisateur à la source de la requête que ce ``email`` est déjà abonné à "
+"la liste de diffusion ou bien procéder à la :ref:`mise à jour de l'abonné "
+"conflictuel<subscriber-update>` si l'utilisateur à préalablement prouvé "
+"qu'il était bien le propriétaire de l'adresse en question."
+
+msgid ""
+"Note that that a conflict may occur even if the subscriber previously "
+"unsubscribed or was deleted from the specified list. You might want to take "
+"different action based on the returned ``subscription`` status and your "
+"application's business logic such as :ref:`confirming the re-"
+"activation<subscription-activation>`."
+msgstr ""
+"Notez qu'un tel conflit peut également se produire lorsqu'un abonné s'est "
+"préalablement désinscrit ou a été supprimé d'une liste. La marche à suivre "
+"dans ces cas dépend entièrement de votre logique applicative. Par exemple, "
+"vous pourriez vouloir  :ref:`confirmer le réabonnement<subscription-"
+"activation>` ou bien simplement ignorer telles exceptions."
