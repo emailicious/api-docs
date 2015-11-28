@@ -1,0 +1,95 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Emailicious API 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-28 00:06-0500\n"
+"PO-Revision-Date: 2015-11-28 01:09-0500\n"
+"Last-Translator: Simon Charette <simon.charette@emailicious.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "Statistics"
+msgstr "Statistiques"
+
+msgid "List all opens statistics"
+msgstr "Statistiques d'ouvertures"
+
+msgid "filter results by campaign's unique identifier"
+msgstr "filtrer les résultats par identifiant unique de campagne"
+
+msgid "filter results by mailing's unique identifier"
+msgstr "filtrer les résultats par identifiant unique d'envoi"
+
+msgid "aggregate the opens by delivery"
+msgstr "agrège les ouvertures par envoi"
+
+msgid "filter results by date"
+msgstr "filtrer les résultats par date"
+
+msgid "filter out results with a more recent datetime"
+msgstr "filtrer les résultats dont le ``datetime`` est plus récent"
+
+msgid "filter out results with a less recent datetime"
+msgstr "filtrer les résultats dont le ``datetime`` est moins récent"
+
+msgid "the open's mailing"
+msgstr "l'envoi à l'origine de l'ouverture"
+
+msgid "the open's email"
+msgstr "le courriel du destinataire ayant ouvert"
+
+msgid "the open's datetime"
+msgstr "le ``datetime`` de l'ouverture"
+
+msgid "**Request**:"
+msgstr "**Requête**:"
+
+msgid "List all clicks statistics"
+msgstr "Statistiques de clics"
+
+msgid "aggregate the clicks by delivery"
+msgstr "agrège les clics par envoi"
+
+msgid "filter results by link URL"
+msgstr "filtre les résultats par l'URL du lien cliqué"
+
+msgid "the click's mailing"
+msgstr "l'envoi à l'origine du clic"
+
+msgid "the click's email"
+msgstr "le courriel du destinataire ayant cliqué"
+
+msgid "the click's datetime"
+msgstr "le courriel du destinataire ayant ouvert"
+
+msgid "the click's link URL"
+msgstr "l'URL du lien cliqué"
+
+msgid "List all bounces statistics"
+msgstr "Statistiques de rebonds"
+
+msgid "aggregate the bounces by delivery"
+msgstr "agrège les rebonds par envoi"
+
+msgid "filter result by bounce permanent status"
+msgstr "filtrer les résultats par statut de permanence du rebond"
+
+msgid "the bounce's mailing"
+msgstr "l'envoi à l'origine du rebond"
+
+msgid "the bounce's email"
+msgstr "le ``datetime`` du rebond"
+
+msgid "the bounce's datetime"
+msgstr "filtrer les résultats dont le ``datetime`` est moins récent"
+
+msgid "the bounce's permanent status"
+msgstr "le statut permanent du rebond"
+
+msgid "**Response**:"
+msgstr "**Réponse**:"

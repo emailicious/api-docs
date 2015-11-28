@@ -13,6 +13,14 @@ Lists & subscribers
    subscribers
    imports
 
+Statistics
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   statistics
+
 Localization
 ------------
 .. toctree::
