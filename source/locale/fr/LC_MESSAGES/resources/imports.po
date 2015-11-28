@@ -1,0 +1,118 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Emailicious API 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-27 22:49-0500\n"
+"PO-Revision-Date: 2015-11-27 23:06-0500\n"
+"Last-Translator: Simon Charette <simon.charette@emailicious.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "Imports"
+msgstr "Importations"
+
+msgid "Import an uploaded `CSV`_ as subscribers of the specified list."
+msgstr ""
+"Importe le fichier `CSV`_ téléversé en tant qu'abonnés à la liste spécifiée."
+
+msgid "list's unique identifier"
+msgstr "l'identifiant unique de la liste"
+
+msgid "the `CSV`_ subscriber file"
+msgstr "le fichier `CSV`_ contenant les abonnés"
+
+msgid "the file encoding, detected automatically if not specified"
+msgstr ""
+"l'encodage du fichier, s'il n'est pas spécifié il sera détecté "
+"automatiquement"
+
+msgid "column delimiter, detected automatically if not specified"
+msgstr ""
+"le délimiteur de colonnes, s'il n'est pas spécifié il sera détecté "
+"automatiquement"
+
+msgid ""
+"whether or not the file has an header, detected automatically if not "
+"specified"
+msgstr ""
+"signale la présence ou l'absence d'un entête, la présence sera détectée "
+"automatiquement si le paramètre n'est pas spécifié"
+
+msgid "whether or not rows with invalid fields should be considered or not"
+msgstr ""
+"détermine la manière dont les colonnes contenant des données invalides "
+"doivent être traitées"
+
+msgid "the `strptime format`_ used to express dates"
+msgstr "le `format strptime`_ utilisé pour représenter les dates"
+
+msgid "array mapping column indexes to fields"
+msgstr "association des index de colonnes du fichier aux champs des abonnés"
+
+msgid ""
+"If the ``fields`` parameter is not specified the ``file`` must start with an "
+"header row mapping the file columns to the subscriber list fields and the "
+"``has_header`` parameter must be set to ``true``."
+msgstr ""
+"Si le paramètre ``fields`` n'est pas fourni vous devez assigner la valeur "
+"``true`` au paramètre ``has_header`` afin que la première ligne du fichier "
+"soit considérée comme l'entête associant les colonnes aux champs des abonnés."
+
+msgid "subscribers.csv"
+msgstr ""
+
+msgid "email"
+msgstr ""
+
+msgid "first_name"
+msgstr ""
+
+msgid "gender"
+msgstr ""
+
+msgid "language"
+msgstr ""
+
+msgid "alice@domain.com"
+msgstr ""
+
+msgid "Alice"
+msgstr ""
+
+msgid "f"
+msgstr ""
+
+msgid "fr"
+msgstr ""
+
+msgid "bob@example.com"
+msgstr ""
+
+msgid "Bob"
+msgstr ""
+
+msgid "m"
+msgstr ""
+
+msgid "en"
+msgstr ""
+
+msgid "**Request**:"
+msgstr "**Requête**:"
+
+msgid "**Response**:"
+msgstr "**Réponse**:"
+
+msgid "the import was created successfully"
+msgstr "l'importation a été crée avec succès"
+
+msgid "invalid import data"
+msgstr "données d'importation invalides"
+
+msgid "no subscriber list match the specified ``list_id``"
+msgstr "aucune liste d'abonnés ne correspond au ``list_id`` spécifié"
