@@ -2,7 +2,7 @@
 Imports
 =======
 
-.. http:post:: /api/v1/list/(int:list_id)/imports
+.. http:post:: /api/v1/lists/(int:list_id)/imports
 
     Import an uploaded `CSV`_ as subscribers of the specified list.
 

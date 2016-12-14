@@ -2,7 +2,7 @@
 Lists
 =====
 
-.. http:get:: /api/v1/list
+.. http:get:: /api/v1/lists
 
     List of existing subscriber lists.
 
@@ -59,7 +59,7 @@ Lists
             ]
         }
 
-.. http:post:: /api/v1/list
+.. http:post:: /api/v1/lists
 
     Create a new subscriber list.
 
@@ -132,7 +132,7 @@ Lists
             ]
         }
 
-.. http:get:: /api/v1/list/(int:id)
+.. http:get:: /api/v1/lists/(int:id)
 
     Details of the subscriber list matching the specified ``id``.
 
@@ -187,7 +187,7 @@ Lists
 
     :status 404: no subscriber list match the specified ``id``
 
-.. http:put:: /api/v1/list/(int:id)
+.. http:put:: /api/v1/lists/(int:id)
 
     Alter the subscriber list matching the specified ``id``.
 
@@ -261,7 +261,7 @@ Lists
     :status 400: invalid subscriber list data
     :status 404: no subscriber list match the specified ``id``
 
-.. http:patch:: /api/v1/list/(int:id)
+.. http:patch:: /api/v1/lists/(int:id)
 
     Partially alter the subscriber list matching the specified ``id``.
 
@@ -329,7 +329,7 @@ Lists
     :status 400: invalid subscriber list data
     :status 404: no subscriber list match the specified ``id``
 
-.. http:delete:: /api/v1/list/(int:id)
+.. http:delete:: /api/v1/lists/(int:id)
 
     Delete the subscriber list matching the specified ``id``.
 

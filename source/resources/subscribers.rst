@@ -2,7 +2,7 @@
 Subscribers
 ===========
 
-.. http:get:: /api/v1/list/(int:list_id)/subscribers
+.. http:get:: /api/v1/lists/(int:list_id)/subscribers
 
     Subscribers of the list matching the specified ``list_id``.
 
@@ -103,7 +103,7 @@ Subscribers
 
     :status 404: no subscriber list match the specified ``list_id``
 
-.. http:post:: /api/v1/list/(int:list_id)/subscribers
+.. http:post:: /api/v1/lists/(int:list_id)/subscribers
 
     Create subscriber for the list matching the specified ``list_id``.
 
@@ -229,7 +229,7 @@ Subscribers
         and your application's business logic such as :ref:`confirming the
         re-activation<subscription-activation>`.
 
-.. http:options:: /api/v1/list/(int:list_id)/subscribers
+.. http:options:: /api/v1/lists/(int:list_id)/subscribers
 
     Introspection details of the subscribers resource.
 
