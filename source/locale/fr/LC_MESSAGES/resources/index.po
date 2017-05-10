@@ -24,3 +24,6 @@ msgstr "Listes et abonnés"
 
 msgid "Statistics"
 msgstr "Statistiques"
+
+msgid "Mailings"
+msgstr "Envois"

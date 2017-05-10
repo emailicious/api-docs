@@ -1,0 +1,126 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Emailicious API 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-09 20:26-0400\n"
+"PO-Revision-Date: 2017-05-09 20:26-0400\n"
+"Last-Translator: Simon Charette <simon.charette@emailicious.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Mailings"
+msgstr "Envois"
+
+msgid "List of existing mailings."
+msgstr "Liste des envois existants"
+
+msgid "filter results by :ref:`list<lists>`'s unique identifier"
+msgstr "filtre les résultats par identifiant unique de :ref:`liste<lists>`"
+
+msgid "mailing's unique identifier"
+msgstr "l'identifiant unique de l'envoi"
+
+msgid "mailing's unique name"
+msgstr "le nom unique de l'envoi"
+
+msgid "mailing's campaign unique identifier"
+msgstr "l'identifiant unique de la campagne de cet envoi"
+
+msgid "**Request**:"
+msgstr "**Requête**:"
+
+msgid "**Response**:"
+msgstr "**Réponse**:"
+
+msgid "Create a new mailing with variants and deliveries."
+msgstr "Crée un envoi avec possiblité de variantes et livraisons multiples."
+
+msgid ":ref:`list<lists>`'s unique identifier"
+msgstr "l'identifiant unique de la :ref:`liste<lists>`"
+
+msgid "campaign's unique identifier"
+msgstr "l'identifiant unique de la campagne"
+
+msgid "variant's :ref:`language<languages>`"
+msgstr ":ref:`code de langue<languages>` de la variante"
+
+msgid "variant's subject"
+msgstr "object de la variante"
+
+msgid "variant's layout text"
+msgstr "contenu texte de la variante"
+
+msgid "`data URI`_ encoded `Zip`_ variant's layout."
+msgstr ""
+"fichier `Zip`_ sous forme de `data URI`_ représentant le contenu HTML de la "
+"variante"
+
+msgid "scheduled datetime of the delivery"
+msgstr "date et temps de la livraison"
+
+msgid "An ``index.html`` file representing the content of your layout."
+msgstr ""
+"Un fichier ``index.html`` représentant la mise en page HTML du gabarit."
+
+msgid ""
+"Optional image files (``.jpg``, ``.png``, ``.gif``) located in a ``images`` "
+"directory. These images should be referenced relatively from the "
+"``index.html`` file to be imported appropriately."
+msgstr ""
+"Et optionnelement des fichiers images (``.jpg``, ``.png``, ``.gif``) "
+"placéesdans un dossier ``images`` accessible depuis la racine de l'archive. "
+"Ces images devront être référencées de manière relative depuis le fichier "
+"``index.html`` afin d'être considérées lors de l'importation du gabarit."
+
+msgid ""
+"Here's an example of how you can generate a valid layout payload using "
+"`Python`_:"
+msgstr ""
+"Voici un exemple `Python`_ démontrant comment générer une archive de valide "
+"compatible:"
+
+msgid "segment unique identifiers"
+msgstr "identifiants uniques des segments"
+
+msgid "variants"
+msgstr "variantes"
+
+msgid "deliveries"
+msgstr "livraisons"
+
+msgid ""
+"variant's from name (defaults to :ref:`list<lists>` ``default_from_name``)"
+msgstr ""
+"nom de l'expéditeur de la variante (prend la valeur ``default_from_name`` "
+"de la :ref:`liste<lists>` si définit)"
+
+msgid ""
+"variant's from email (defaults to :ref:`list<lists>` ``default_from_email``)"
+msgstr ""
+"nom de l'expéditeur de la variante (prend la valeur ``default_from_email`` "
+"de la :ref:`liste<lists>` si définit)"
+
+msgid ""
+"variant's reply-to email (defaults to :ref:`list<lists>` "
+"``default_replyto_email``)"
+msgstr ""
+"nom de l'expéditeur de la variante (prend la valeur ``default_replyto_email`` "
+"de la :ref:`liste<lists>` si définit)"
+
+msgid ""
+"In order to allow files to be submitted through a request with an "
+"``application/json`` content type files must be `data URI`_ encoded."
+msgstr ""
+"Afin de permettre la soumission de fichiers lors des requêtes dont le "
+"``Content-Type`` est ``application/json`` leur contenu doit être sous forme "
+"de `data URI`_."
+
+msgid ""
+"The ``variants.layout.zip_file`` expects the submitted file to be a `Zip`_ "
+"archive containing the following files:"
+msgstr ""
+"Les champs ``variants.layout.zip_file`` doivent être des fichiers `Zip`_ "
+"contenant l'aborescence suivante."
