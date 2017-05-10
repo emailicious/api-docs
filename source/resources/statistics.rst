@@ -8,7 +8,7 @@ Statistics
     List all opens statistics
 
     :query int campaign: filter results by campaign's unique identifier
-    :query int mailing: filter results by mailing's unique identifier
+    :query int mailing: filter results by :ref:`mailing<mailings>`'s unique identifier
     :query boolean unique: aggregate the opens by delivery
     :query date date: filter results by date
     :query datetime from_datetime: filter out results with a more recent datetime
@@ -53,7 +53,7 @@ Statistics
     List all clicks statistics
 
     :query int campaign: filter results by campaign's unique identifier
-    :query int mailing: filter results by mailing's unique identifier
+    :query int mailing: filter results by :ref:`mailing<mailings>`'s unique identifier
     :query boolean unique: aggregate the clicks by delivery
     :query date date: filter results by date
     :query datetime from_datetime: filter out results with a more recent datetime
@@ -101,7 +101,7 @@ Statistics
     List all bounces statistics
 
     :query int campaign: filter results by campaign's unique identifier
-    :query int mailing: filter results by mailing's unique identifier
+    :query int mailing: filter results by :ref:`mailing<mailings>`'s unique identifier
     :query boolean unique: aggregate the bounces by delivery
     :query date date: filter results by date
     :query datetime from_datetime: filter out results with a more recent datetime

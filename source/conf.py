@@ -57,7 +57,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Emailicious API'
-copyright = u'2015, Emailicious'
+copyright = u'2017, Emailicious'
 author = u'Simon Charette, Jean-François Labelle, Yan Chouinard'
 
 # The version info for the project you're documenting, acts as replacement for

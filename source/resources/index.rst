@@ -13,6 +13,13 @@ Lists & subscribers
    subscribers
    imports
 
+Mailings
+--------
+.. toctree::
+   :maxdepth: 1
+
+   mailings
+
 Statistics
 ----------
 

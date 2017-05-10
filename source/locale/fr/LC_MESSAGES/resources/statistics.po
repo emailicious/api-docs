@@ -22,9 +22,6 @@ msgstr "Statistiques d'ouvertures"
 msgid "filter results by campaign's unique identifier"
 msgstr "filtrer les résultats par identifiant unique de campagne"
 
-msgid "filter results by mailing's unique identifier"
-msgstr "filtrer les résultats par identifiant unique d'envoi"
-
 msgid "aggregate the opens by delivery"
 msgstr "agrège les ouvertures par envoi"
 
@@ -93,3 +90,6 @@ msgstr "le statut permanent du rebond"
 
 msgid "**Response**:"
 msgstr "**Réponse**:"
+
+msgid "filter results by :ref:`mailing<mailings>`'s unique identifier"
+msgstr "filtre les résultats par identifiant unique d':ref:`envoi<mailings>`"
